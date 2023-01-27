@@ -168,7 +168,34 @@
     // const b=98;
     // const c=b>=18 ? 'greater':'smaller';
     // console.log(c);
- const bill=275;
- const tip=bill<=300 && bill>=15? bill*0.15:bill*0.2;
- const  total_bill=bill+tip;
- console.log(`The bill was ${bill}, the tip was ${tip},and total value ${total_bill}`);
+//  const bill=275;
+//  const tip=bill<=300 && bill>=15? bill*0.15:bill*0.2;
+//  const  total_bill=bill+tip;
+//  console.log(`The bill was ${bill}, the tip was ${tip},and total value ${total_bill}`);
+              //function
+// let h=window.prompt("enter");
+// let g=window.prompt("enter")
+
+// function run(a,b){
+//       let c=(`hi ${a} hello ${b}` );
+//       return c;
+// }
+// console.log(run(h,g));
+// let res=(run(1,2));
+// console.log(res);
+  
+//   function cal(){
+//         let age=prompt("eneter the age");
+//         const a=2021-age;
+//         return a;
+//   }
+//   console.log(cal()); //  1991 ans 30
+// function calage1(brithdate){
+// return 2037-brithdate;
+// }
+// const age1=calage1(1991);
+//  const calage2=function(brithdate){
+//         return 2037-brithdate;
+//  }
+//  const age2=calage2(1991);
+//  console.log(age1,age2); // ans 46 46
