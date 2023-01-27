@@ -84,10 +84,91 @@
 // console.log(typeof b);
 // console.log(Number(b),b);
            // truthy and falsy
-let x;
-if(x){
-    console.log("true");
-}
-else{
-    console.log("false");
-}
+// let x;
+// if(x){
+//     console.log("true");
+// }
+// else{
+//     console.log("false");
+// }
+          //=== vs==
+//   const a=10;
+//   const b='10';
+//   if(a===b){
+//     console.log("true");
+//   } 
+//   else{
+//     console.log("false");
+//   }
+//   if(a==b){
+//     console.log("true");
+//   }
+//   else{
+//     console.log("false");
+//   }
+        //prompt it take only string input
+// let a=prompt("enter the number");
+// if(a==5){
+//     console.log("correct number");
+// }
+// else{
+//     console.log("not correct number");
+// }
+// let a=Number(prompt("enter the number"));
+// if(a===5){
+//     console.log("5 correct number");
+// }
+// else if(a===6){
+//     console.log("6 correct number");
+// }
+// else{
+//     console.log("not correct number");
+// }
+// if(a!==5){
+// console.log("not correct number");
+//}
+// let a=prompt("enter the number");
+// if(a!=5){
+//     console.log("not anumber");
+// }
+            // && vs ||  vs!
+// const a=true;
+// const b=true;
+// console.log("and operator"+(a && b));
+// console.log("or operator"+a || b);
+// console.log("not operator"+!a); // not operator check it is false to print true;
+             //problem
+// let dolphins=(96+108+89)/3;
+// let koalas=(88+91+110)/3;
+// console.log(dolphins,koalas);
+// if(dolphins>koalas){
+//     console.log("dolphin is winner"); // ans
+// }
+// else if(dolphins===koalas){
+//     console.log("match is draw");
+// }
+// else{
+//     console.log("koalas is winner");
+// }   
+         //swtich
+// const a =10;
+// switch(a){
+//     case 5:
+//         console.log("a is 5");
+//         break;
+//     case 10:
+//         console.log("a is 10");
+//         break;
+//     default:
+//         console.log("not equal") 
+// }
+       // ternary operator
+    // const a=18;
+    // a>=18 ?console.log("true"):console.log("false");
+    // const b=98;
+    // const c=b>=18 ? 'greater':'smaller';
+    // console.log(c);
+ const bill=275;
+ const tip=bill<=300 && bill>=15? bill*0.15:bill*0.2;
+ const  total_bill=bill+tip;
+ console.log(`The bill was ${bill}, the tip was ${tip},and total value ${total_bill}`);
