@@ -253,7 +253,7 @@
 // const b3=Number(window.prompt("enter the b score"));
 // console.log(result(a(a1,a2,a3),b(b1,b2,b3)));
                          // problem 41
-function caltip(){
+// function caltip(){
         
-}
-const arr=[125,555,44];
+// }
+// const arr=[125,555,44];
