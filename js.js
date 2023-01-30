@@ -199,3 +199,61 @@
 //  }
 //  const age2=calage2(1991);
 //  console.log(age1,age2); // ans 46 46
+                 //Arrow function
+// const cal=(brithyear)=>2023-brithyear;
+// console.log(cal(2004));
+// const yearsretriment=(brithyear)=>{
+//         const age=2023-brithyear;
+//         const retrimentage=65-age;
+//         return retrimentage;
+// }
+// const year=window.prompt("enter the brith year");
+// console.log(yearsretriment(year));   
+// const student=(id,name1)=>` the student  is ${name1} and his id is ${id}`;
+// console.log(student(window.prompt("student name"),window.prompt("student id")));
+//   const calage=(brithyear)=>2023-brithyear;
+//   const retriment=function(brithyear,name){
+//         const age=calage(brithyear);
+//         const retrimentage=65-age;
+//         if(retrimentage>0){
+//                 let a= retrimentage;
+//         }
+//         else{
+//                 let a= "retried";
+//         }
+//         return`my retrimentage is ${retrimentage} and my name is ${name}`;
+//   }
+//   console.log(retriment(window.prompt("brithyear"),window.prompt("name")));
+                 // 38 problem;
+//                  let x,y;
+//     const result=function(a,b){
+//         console.log(a,b);
+//         if((a*2)<=b){
+//          return "team b is winner"; 
+//         }
+//         else{
+//                 return " team a is winner";
+//         }
+              
+//     }
+// // 
+// const a=(a1,a2,a3) =>(a1+a2+a3)/3;
+// const b=(b1,b2,b3) =>(b1+b2+b3)/3;
+// 0
+// // function b(b1,b2,b3){
+// //        y= (b1+b2+b3)/3;
+// //         return y;
+// //         }
+
+// const a1=Number(window.prompt("enter the a score"));
+// const a2=Number(window.prompt("enter the a score"));
+// const a3=Number(window.prompt("enter the a score"));
+// const b1=Number(window.prompt("enter the b score"));
+// const b2=Number(window.prompt("enter the b score"));
+// const b3=Number(window.prompt("enter the b score"));
+// console.log(result(a(a1,a2,a3),b(b1,b2,b3)));
+                         // problem 41
+function caltip(){
+        
+}
+const arr=[125,555,44];
