@@ -253,7 +253,55 @@
 // const b3=Number(window.prompt("enter the b score"));
 // console.log(result(a(a1,a2,a3),b(b1,b2,b3)));
                          // problem 41
-// function caltip(){
-        
+// const tiparr=[];
+// const total=[];
+//         const caltip=function (b){
+//      const tip=b>=50 && b<=300?b*(15/100):b*(20/100);
+//     tiparr.push(tip);
+//     const x=b+tip;
+//     total.push(x);
 // }
 // const arr=[125,555,44];
+// caltip(arr[0]); 
+// caltip(arr[1]);
+// caltip(arr[arr.length-1]);
+// console.log(tiparr);
+// console.log(total);
+                           // problem 45
+// const mark={
+//         name:'mark',
+//         weight:78,
+//         heigth:1.69,
+//         calBMI:function(){
+//          return (this.weight/this.heigth)*2;
+//         }
+// };
+// const john={
+//         name:'john',
+//         weight:92,
+//         heigth:1.95,
+//         calBMI:function(){
+//                 return (this.weight/this.heigth)*2;
+//                }
+// };
+// if(mark.calBMI()>john.calBMI){
+//         console.log(`${mark.name}BMI(${mark.calBMI()}) is higher than ${john.name}(${john.calBMI()})`);
+// }
+// else{
+//         console.log(`${john.name}BMI(${john.calBMI()}) is higher than ${mark.name}(${mark.calBMI()})`);   
+// }
+                       //problem 50
+// const tip=[];
+// const totaltip=[];
+// const caltip=function(a){
+//  const b=a>=60 && a<=300?a*(15/100):a*(20/100);
+//  tip.push(b);
+//  let x=b+a;
+//  totaltip.push(x);
+// }
+// const bill=[22,295,176,440,37,105,10,1100,85,52];
+// for(let i=0;i<bill.length;i++){
+//         caltip(bill[i]);
+// }
+// console.log(tip);
+// console.log(totaltip);
